@@ -24,6 +24,9 @@ To test/run:
 1.  Clone repository
 2.  Import project into IntelliJ
 3.  Run main function in Main.kt
+4.  Enter search term in console window
+5.  Enter search method (1 for string match, 2 for regex, or 3 for indexed) in console window
+6.  Observe output in console window
 
 I chose to write this application in Kotlin since I have been learning it and teaching myself recently and I thought this would be a good way to reinforce that knowledge.
 I also use Kotlin in Android development professionally and in my personal projects.  Writing this application in Kotlin allows me to showcase the fact that I know Kotlin plus reap the benefits of its features.
