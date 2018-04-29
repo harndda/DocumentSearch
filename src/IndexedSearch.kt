@@ -17,7 +17,7 @@ internal class IndexedSearch(private val searchTerm: String) : Search() {
     }
 
     // preprocesses content in the files and puts them into fileMap for quick lookup later
-    internal fun preprocess() {
+    private fun preprocess() {
         for (i in 0 until files.size) {
             val wordsInFile = wordsFromFile(i)
             val cache = HashMap<String, Int>()
