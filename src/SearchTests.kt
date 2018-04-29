@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.Test
 import kotlin.system.measureTimeMillis
-import kotlin.test.assertEquals
 
 internal class SearchTests {
 
