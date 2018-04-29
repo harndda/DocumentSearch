@@ -31,5 +31,6 @@ To test/run:
 I chose to write this application in Kotlin since I have been learning it and teaching myself recently and I thought this would be a good way to reinforce that knowledge.
 I also use Kotlin in Android development professionally and in my personal projects.  Writing this application in Kotlin allows me to showcase the fact that I know Kotlin plus reap the benefits of its features.
 I use Kotlin's object-oriented and functional features at different points when I feel they're useful.  Namely, abstract class, inheritance, and lambdas.
+I use a priority queue to keep output sorted by relevance at all times.
 
 Indexed search is the fastest because of the typical O(1) complexity of putting and getting elements in hash map.
