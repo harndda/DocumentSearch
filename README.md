@@ -20,6 +20,8 @@ JRE: 1.8.0_152-release-1136-b20 amd64
 JVM: OpenJDK 64-Bit Server VM by JetBrains s.r.o
 Windows 10 10.0
 
+You'll also need Kotlin and JUnit installed.  Kotlin is bundled with IntelliJ IDEA starting from version 15.
+
 To test/run:
 1.  Clone repository
 2.  Import project into IntelliJ
