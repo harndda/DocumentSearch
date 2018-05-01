@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="684695b0-03ea-4d54-9c04-8e7662b06b58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/IndexedSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/IndexedSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/MainPerformanceTestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/MainPerformanceTestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/RegExSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/RegExSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/SearchTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/StringMatchSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/StringMatchSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IndexedSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IndexedSearch.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPerformanceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPerformanceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegExSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegExSearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMatchSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringMatchSearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="168">
               <caret line="18" column="86" lean-forward="true" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
             </state>
           </provider>
@@ -39,8 +27,8 @@
       <file leaf-file-name="SearchTests.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="246">
+              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="e#0#102#0" expanded="true" />
               </folding>
@@ -66,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Search.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Search.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -138,13 +126,13 @@
         <option value="$PROJECT_DIR$/src/Main/Main.kt" />
         <option value="$PROJECT_DIR$/src/Search/StringMatchSearch.kt" />
         <option value="$PROJECT_DIR$/src/Search/Search.kt" />
-        <option value="$PROJECT_DIR$/src/SearchTests.kt" />
         <option value="$PROJECT_DIR$/src/MainPerformanceTest.kt" />
         <option value="$PROJECT_DIR$/src/StringMatchSearch.kt" />
         <option value="$PROJECT_DIR$/src/RegExSearch.kt" />
         <option value="$PROJECT_DIR$/src/IndexedSearch.kt" />
-        <option value="$PROJECT_DIR$/src/Search.kt" />
         <option value="$PROJECT_DIR$/src/Main.kt" />
+        <option value="$PROJECT_DIR$/src/SearchTests.kt" />
+        <option value="$PROJECT_DIR$/src/Search.kt" />
       </list>
     </option>
   </component>
@@ -222,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="JUnit.SearchTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -263,13 +251,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SearchTests.testRegExSearchExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.testStringMatchSearchExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DocumentSearch" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="testRegExSearchExecute" />
+      <option name="METHOD_NAME" value="testStringMatchSearchExecute" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -354,19 +342,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SearchTests.testRegExSearchExecute" />
       <item itemvalue="JUnit.SearchTests" />
       <item itemvalue="JUnit.SearchTests.testGetFiles" />
       <item itemvalue="Kotlin.MainPerformanceTestKt" />
       <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="JUnit.SearchTests.testStringMatchSearchExecute" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.MainPerformanceTestKt" />
         <item itemvalue="JUnit.SearchTests" />
+        <item itemvalue="JUnit.SearchTests.testStringMatchSearchExecute" />
+        <item itemvalue="Kotlin.MainPerformanceTestKt" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.SearchTests.testGetFiles" />
-        <item itemvalue="JUnit.SearchTests.testRegExSearchExecute" />
       </list>
     </recent_temporary>
   </component>
@@ -384,21 +372,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTests - 2018.04.30 at 20h 26m 32s.xml">
-      <configuration name="SearchTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchTests - 2018.04.30 at 20h 27m 05s.xml">
-      <configuration name="SearchTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchTests_testStringMatchSearchExecute - 2018.04.30 at 20h 27m 47s.xml">
-      <configuration name="SearchTests.testStringMatchSearchExecute" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchTests_testIndexedSearchExecute - 2018.04.30 at 20h 27m 53s.xml">
-      <configuration name="SearchTests.testIndexedSearchExecute" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SearchTests_testRegExSearchExecute - 2018.04.30 at 20h 27m 59s.xml">
-      <configuration name="SearchTests.testRegExSearchExecute" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchTests_testGetFiles - 2018.04.30 at 20h 28m 19s.xml">
       <configuration name="SearchTests.testGetFiles" configurationId="JUnit" />
     </history-entry>
@@ -414,6 +387,21 @@
     <history-entry file="SearchTests - 2018.04.30 at 21h 08m 25s.xml">
       <configuration name="SearchTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SearchTests - 2018.04.30 at 21h 34m 47s.xml">
+      <configuration name="SearchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTests - 2018.04.30 at 21h 37m 15s.xml">
+      <configuration name="SearchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTests - 2018.04.30 at 21h 37m 51s.xml">
+      <configuration name="SearchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTests_testStringMatchSearchExecute - 2018.04.30 at 21h 38m 05s.xml">
+      <configuration name="SearchTests.testStringMatchSearchExecute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchTests - 2018.04.30 at 21h 38m 10s.xml">
+      <configuration name="SearchTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -427,7 +415,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43088552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34557235" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -788,23 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InputFiles.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IndexedSearch.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
@@ -829,10 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search.kt">
+    <entry file="file://$PROJECT_DIR$/src/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="168">
+          <caret line="18" column="86" lean-forward="true" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -843,10 +814,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/InputFiles.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="86" lean-forward="true" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+        <state relative-caret-position="105">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
         </state>
       </provider>
     </entry>
