@@ -7,6 +7,8 @@ internal abstract class Search {
 
     // used to store search results
     val results: PriorityQueue<SearchResult> = PriorityQueue(files.size, { a, b -> b.numberOfMatches - a.numberOfMatches })
+    // used for testing
+    internal val resultsCache: PriorityQueue<SearchResult> = PriorityQueue(files.size, { a, b -> b.numberOfMatches - a.numberOfMatches })
 
     internal abstract fun execute()
 
@@ -16,6 +18,7 @@ internal abstract class Search {
         while (results.size > 0) {
             val maxPair = results.remove()
             println(maxPair.fileName + " - " + maxPair.numberOfMatches)
+            resultsCache.add(maxPair)
         }
     }
 
