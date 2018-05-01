@@ -2,12 +2,12 @@ import kotlin.system.measureTimeMillis
 
 fun main(args: Array<String>) {
     /* INDEXED */
-    // FINAL INDEXED RUNTIME: 39934 ms
     // Fastest because HashMap get and put are usually O(1)
+    // Does 2 million requests in about 2.4 seconds
+    val indexedSearch = IndexedSearch(generateRandomString())
     val indexedTime = measureTimeMillis {
         for (i in 0 until 2000000) {
-            val indexedSearch = IndexedSearch(generateRandomString())
-            println("Elapsed time: ${measureTimeMillis(indexedSearch::execute)} ms")
+            indexedSearch.execute()
         }
     }
     println()
@@ -16,7 +16,6 @@ fun main(args: Array<String>) {
 
 
     /* REGEX */
-    // FINAL REGEX RUNTIME: 341461 ms
     // Second fastest
 //    val regExSearch = RegExSearch("drive")
 //    val regExTime = measureTimeMillis {
@@ -44,7 +43,7 @@ fun main(args: Array<String>) {
 fun generateRandomString() : String {
     val chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     var word = ""
-    for (i in 0..3) {
+    for (i in 0..2) {
         word += chars[Math.floor(Math.random() * chars.length).toInt()]
     }
     return word

@@ -13,7 +13,6 @@ internal class IndexedSearch(private val searchTerm: String) : Search() {
             val numberOfMatches = cache?.getOrDefault(searchTerm, 0)
             results.add(SearchResult(files[i].name, numberOfMatches ?: 0))
         }
-        printResult()
     }
 
     // preprocesses content in the files and puts them into fileMap for quick lookup later

@@ -12,8 +12,7 @@ internal abstract class Search {
 
     internal abstract fun execute()
 
-    protected fun printResult() {
-        println("")
+    internal fun printResult() {
         println("----------RESULTS----------")
         while (results.size > 0) {
             val maxPair = results.remove()

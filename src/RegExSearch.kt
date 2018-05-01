@@ -20,6 +20,5 @@ internal class RegExSearch(private val searchTerm: String) : Search() {
             }
             results.add(SearchResult(files[i].name, numberOfMatches))
         }
-        printResult()
     }
 }

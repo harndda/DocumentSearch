@@ -6,17 +6,23 @@ fun main(args: Array<String>) {
     println("Enter 1 for StringMatch, 2 for Regular Expressions, 3 for Indexed")
     print("Enter search method: ")
     val searchMethod = readLine()
+    println("")
     if (searchMethod != null && searchTerm != null) {
         when (searchMethod) {
             "1" -> {
-                println("Elapsed time: ${measureTimeMillis(StringMatchSearch(searchTerm)::execute)} ms")
+                val stringMatchSearch = StringMatchSearch(searchTerm)
+                println("Elapsed time: ${measureTimeMillis(stringMatchSearch::execute)} ms")
+                stringMatchSearch.printResult()
             }
             "2" -> {
-                println("Elapsed time: ${measureTimeMillis(RegExSearch(searchTerm)::execute)} ms")
+                val regExSearch = RegExSearch(searchTerm)
+                println("Elapsed time: ${measureTimeMillis(regExSearch::execute)} ms")
+                regExSearch.printResult()
             }
             "3" -> {
                 val indexedSearch = IndexedSearch(searchTerm)
                 println("Elapsed time: ${measureTimeMillis(indexedSearch::execute)} ms")
+                indexedSearch.printResult()
             }
             else -> {
                 println("Unknown value entered for search method, exiting")

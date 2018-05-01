@@ -6,6 +6,5 @@ internal class StringMatchSearch(private val searchTerm: String) : Search() {
             val numberOfMatches = (contentFromFile.length - modifiedContent.length) / searchTerm.length
             results.add(SearchResult(files[i].name, numberOfMatches))
         }
-        printResult()
     }
 }
