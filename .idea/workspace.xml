@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="684695b0-03ea-4d54-9c04-8e7662b06b58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/IndexedSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/IndexedSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/SearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DocumentSearch/SearchTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SearchTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchTests.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchTests.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="88" column="63" lean-forward="true" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
+            <state relative-caret-position="1522">
+              <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
               <folding>
                 <element signature="e#0#102#0" expanded="true" />
               </folding>
@@ -49,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Search.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Search.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="42">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -390,9 +385,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTests_testRegExSearchExecute - 2018.04.30 at 20h 14m 19s.xml">
-      <configuration name="SearchTests.testRegExSearchExecute" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchTests_testRegExSearchExecute - 2018.04.30 at 20h 20m 55s.xml">
       <configuration name="SearchTests.testRegExSearchExecute" configurationId="JUnit" />
     </history-entry>
@@ -420,6 +412,9 @@
     <history-entry file="SearchTests - 2018.04.30 at 20h 28m 26s.xml">
       <configuration name="SearchTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SearchTests - 2018.04.30 at 20h 30m 50s.xml">
+      <configuration name="SearchTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -433,12 +428,14 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.061555076" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34341252" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359375" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="7" visible="true" weight="0.19546436" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -447,11 +444,9 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.2386609" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -839,20 +834,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
+    <entry file="file://$PROJECT_DIR$/src/Search.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="88" column="63" lean-forward="true" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#102#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search.kt">
+    <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="1522">
+          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

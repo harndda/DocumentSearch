@@ -86,8 +86,8 @@ internal class SearchTests {
         assertTrue(files != null)
         assertTrue(files.size != 0)
         assertTrue(files.size == 3)
-        assertTrue(files.get(0).name.equals("hitchhikers.txt"))
-        assertTrue(files.get(1).name.equals("warp_drive.txt"))
-        assertTrue(files.get(2).name.equals("french_armed_forces.txt"))
+        assertTrue(files[0].name == "hitchhikers.txt")
+        assertTrue(files[1].name == "warp_drive.txt")
+        assertTrue(files[2].name == "french_armed_forces.txt")
     }
 }
