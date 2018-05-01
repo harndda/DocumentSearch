@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="684695b0-03ea-4d54-9c04-8e7662b06b58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DocumentSearch/Search$resultsCache$1.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" column="86" lean-forward="true" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
+            <state relative-caret-position="483">
+              <caret line="23" column="88" lean-forward="true" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -27,7 +26,7 @@
       <file leaf-file-name="SearchTests.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="399">
               <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="e#0#102#0" expanded="true" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="MainPerformanceTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainPerformanceTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="168">
+              <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -54,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Search.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Search.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -210,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SearchTests">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -350,10 +349,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.MainPerformanceTestKt" />
         <item itemvalue="JUnit.SearchTests" />
         <item itemvalue="JUnit.SearchTests.testStringMatchSearchExecute" />
-        <item itemvalue="Kotlin.MainPerformanceTestKt" />
-        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.SearchTests.testGetFiles" />
       </list>
     </recent_temporary>
@@ -372,9 +371,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTests_testGetFiles - 2018.04.30 at 20h 28m 19s.xml">
-      <configuration name="SearchTests.testGetFiles" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchTests - 2018.04.30 at 20h 28m 26s.xml">
       <configuration name="SearchTests" configurationId="JUnit" />
     </history-entry>
@@ -402,6 +398,9 @@
     <history-entry file="SearchTests - 2018.04.30 at 21h 38m 10s.xml">
       <configuration name="SearchTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SearchTests - 2018.04.30 at 21h 39m 16s.xml">
+      <configuration name="SearchTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -415,7 +414,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34557235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34557235" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -800,20 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="86" lean-forward="true" selection-start-line="18" selection-start-column="86" selection-end-line="18" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainPerformanceTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InputFiles.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -821,9 +806,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SearchTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="399">
           <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
           <folding>
             <element signature="e#0#102#0" expanded="true" />
@@ -831,10 +823,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search.kt">
+    <entry file="file://$PROJECT_DIR$/src/MainPerformanceTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        <state relative-caret-position="168">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="88" lean-forward="true" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
         </state>
       </provider>
     </entry>
