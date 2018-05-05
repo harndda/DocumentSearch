@@ -9,8 +9,8 @@ internal class IndexedSearch(private val searchTerm: String) : Search() {
 
     override fun execute() {
         for (i in 0 until files.size) {
-            val cache = fileMap[files[i]]
-            val numberOfMatches = cache?.getOrDefault(searchTerm, 0)
+            val cache : Map<String, Int>? = fileMap[files[i]]
+            val numberOfMatches : Int? = cache?.getOrDefault(searchTerm, 0)
             results.add(SearchResult(files[i].name, numberOfMatches ?: 0))
         }
     }
@@ -18,10 +18,10 @@ internal class IndexedSearch(private val searchTerm: String) : Search() {
     // preprocesses content in the files and puts them into fileMap for quick lookup later
     private fun preprocess() {
         for (i in 0 until files.size) {
-            val wordsInFile = wordsFromFile(i)
+            val wordsInFile : List<String> = wordsFromFile(i)
             val cache = HashMap<String, Int>()
             for (word in wordsInFile) {
-                var currentMatchCount = cache[word]
+                var currentMatchCount : Int? = cache[word]
                 if (currentMatchCount == null) {
                     cache[word] = 1 // new word, set occurrences to 1
                 } else {

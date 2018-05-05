@@ -2,10 +2,10 @@ import kotlin.system.measureTimeMillis
 
 fun main(args: Array<String>) {
     print("Enter the search term: ")
-    val searchTerm = readLine()
+    val searchTerm : String? = readLine()
     println("Enter 1 for StringMatch, 2 for Regular Expressions, 3 for Indexed")
     print("Enter search method: ")
-    val searchMethod = readLine()
+    val searchMethod : String? = readLine()
     println("")
     if (searchMethod != null && searchTerm != null) {
         when (searchMethod) {

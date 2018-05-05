@@ -1,3 +1,4 @@
+import java.util.regex.Matcher
 import java.util.regex.Pattern
 import java.util.regex.PatternSyntaxException
 
@@ -12,8 +13,8 @@ internal class RegExSearch(private val searchTerm: String) : Search() {
         }
 
         for (i in 0 until files.size) {
-            val contentFromFile = stringFromFile(i)
-            val matcher = pattern.matcher(contentFromFile)
+            val contentFromFile : String = stringFromFile(i)
+            val matcher : Matcher = pattern.matcher(contentFromFile)
             var numberOfMatches = 0
             while (matcher.find()) {
                 numberOfMatches++
