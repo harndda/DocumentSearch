@@ -6,10 +6,10 @@ internal class RegExSearch(private val searchTerm: String) : Search() { // match
     override fun execute() {
         var pattern: Pattern? = null
         try {
-            if (caseSensitiveSearch) {
-                pattern = Pattern.compile(searchTerm)
+            pattern = if (caseSensitiveSearch) {
+                Pattern.compile(searchTerm)
             } else {
-                pattern = Pattern.compile(searchTerm.toLowerCase())
+                Pattern.compile(searchTerm.toLowerCase())
             }
         } catch (e: PatternSyntaxException) {
             println("Unknown or invalid regex pattern, exiting")

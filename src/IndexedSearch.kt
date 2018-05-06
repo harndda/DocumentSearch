@@ -26,8 +26,7 @@ internal class IndexedSearch(private val searchTerm: String) : Search() { // mat
             val wordsInFile : List<String> = wordsFromFile(i)
             val cache = HashMap<String, Int>()
             for (word in wordsInFile) {
-                var currentMatchCount : Int? = 0
-                if (caseSensitiveSearch) currentMatchCount = cache[word] else currentMatchCount = cache[word.toLowerCase()]
+                var currentMatchCount = if (caseSensitiveSearch) cache[word] else cache[word.toLowerCase()]
                 if (currentMatchCount == null) {
                     if (caseSensitiveSearch) cache.put(word, 1) else cache.put(word.toLowerCase(), 1)
                 } else {
