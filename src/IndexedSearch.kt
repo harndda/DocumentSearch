@@ -1,6 +1,6 @@
 import java.io.File
 
-internal class IndexedSearch(private val searchTerm: String) : Search() {
+internal class IndexedSearch(private val searchTerm: String) : Search() { // match # does not include substrings, does not support multi-word phrases
     private val fileMap = HashMap<File, Map<String, Int>>() // maps a file to a cache, each cache is a map of word to number of occurrences in that file
 
     init {
@@ -10,8 +10,13 @@ internal class IndexedSearch(private val searchTerm: String) : Search() {
     override fun execute() {
         for (i in 0 until files.size) {
             val cache : Map<String, Int>? = fileMap[files[i]]
-            val numberOfMatches : Int? = cache?.getOrDefault(searchTerm, 0)
-            results.add(SearchResult(files[i].name, numberOfMatches ?: 0))
+            if (caseSensitiveSearch) {
+                val numberOfMatches : Int? = cache?.getOrDefault(searchTerm, 0)
+                results.add(SearchResult(files[i].name, numberOfMatches ?: 0))
+            } else {
+                val numberOfMatchesCaseInsensitive : Int? = cache?.getOrDefault(searchTerm.toLowerCase(), 0)
+                results.add(SearchResult(files[i].name, numberOfMatchesCaseInsensitive ?: 0))
+            }
         }
     }
 
@@ -21,11 +26,12 @@ internal class IndexedSearch(private val searchTerm: String) : Search() {
             val wordsInFile : List<String> = wordsFromFile(i)
             val cache = HashMap<String, Int>()
             for (word in wordsInFile) {
-                var currentMatchCount : Int? = cache[word]
+                var currentMatchCount : Int? = 0
+                if (caseSensitiveSearch) currentMatchCount = cache[word] else currentMatchCount = cache[word.toLowerCase()]
                 if (currentMatchCount == null) {
-                    cache[word] = 1 // new word, set occurrences to 1
+                    if (caseSensitiveSearch) cache.put(word, 1) else cache.put(word.toLowerCase(), 1)
                 } else {
-                    cache[word] = ++currentMatchCount // word already exists in map, simply increment occurrences
+                    if (caseSensitiveSearch) cache.put(word, ++currentMatchCount) else cache.put(word.toLowerCase(), ++currentMatchCount)
                 }
             }
             fileMap[files[i]] = cache

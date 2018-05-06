@@ -7,6 +7,7 @@ internal abstract class Search {
 
     // used to store search results
     val results: PriorityQueue<SearchResult> = PriorityQueue(files.size, { a, b -> b.numberOfMatches - a.numberOfMatches })
+    val caseSensitiveSearch : Boolean = true
 
     internal abstract fun execute()
 
