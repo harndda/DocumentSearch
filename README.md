@@ -1,5 +1,4 @@
 # DocumentSearch
-Target Case Study
 
 The goal of this exercise is to create a working program to search a set of documents for the given search term or phrase (single token), and return results in order of relevance. 
 Relevancy is defined as number of times the exact term or phrase appears in the document. 
